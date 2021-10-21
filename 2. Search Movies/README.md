@@ -1,11 +1,5 @@
 ## Run
 
-install nodemon:
-
-```Shell
-npm install -g nodemon
-```
-
 type this command to run:
 
 ```Shell
@@ -45,8 +39,6 @@ List Movies:
 ```Shell
 https://stockbit-anandabayu.herokuapp.com/movies?q=Batman
 ```
-
-## Public URL
 
 Detail Movie:
 
