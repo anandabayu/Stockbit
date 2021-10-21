@@ -4,7 +4,7 @@
  * File Created: Thursday, 21st October 2021 12:04:36 pm
  * Author: Ananda Yudhistira (anandabayu12@gmail.com)
  * -----
- * Last Modified: Thursday, 21st October 2021 12:37:57 pm
+ * Last Modified: Thursday, 21st October 2021 2:09:20 pm
  * Modified By: Ananda Yudhistira (anandabayu12@gmail.com>)
  * -----
  * Copyright 2021 Ananda Yudhistira, -
@@ -13,7 +13,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const axios = require('axios');
-const port = 3000;
 
 app.use(cors());
 
@@ -59,6 +58,4 @@ app.use(function (req, res, next) {
     .json({ success: false, message: 'the url you access is not found!' });
 });
 
-app.listen(port, () => {
-  console.log(`Search Movies app listening at http://localhost:${port}`);
-});
+module.exports = app;

@@ -1,5 +1,11 @@
 ## Run
 
+install nodemon:
+
+```Shell
+npm install -g nodemon
+```
+
 type this command to run:
 
 ```Shell
@@ -16,4 +22,12 @@ detail movie:
 
 ```Shell
 http://localhost:3000/movies/{imdbID get from search}
+```
+
+## Run
+
+type this command to test:
+
+```Shell
+npm test
 ```
