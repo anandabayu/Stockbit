@@ -24,7 +24,7 @@ detail movie:
 http://localhost:3000/movies/{imdbID get from search}
 ```
 
-## Run
+## Test
 
 type this command to test:
 
