@@ -31,3 +31,25 @@ type this command to test:
 ```Shell
 npm test
 ```
+
+## Public URL
+
+URL:
+
+```Shell
+https://stockbit-anandabayu.herokuapp.com/
+```
+
+List Movies:
+
+```Shell
+https://stockbit-anandabayu.herokuapp.com/movies?q=Batman
+```
+
+## Public URL
+
+Detail Movie:
+
+```Shell
+https://stockbit-anandabayu.herokuapp.com/movies/tt0372784
+```
